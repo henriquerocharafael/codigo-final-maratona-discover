@@ -218,6 +218,7 @@ const App = {
 
     Storage.set(Transaction.all)
   },
+  
   reload() {
     DOM.clearTransactions()
     App.init()
