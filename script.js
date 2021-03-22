@@ -5,7 +5,7 @@ const Modal = {
     document
       .querySelector('.modal-overlay')
       .classList
-      .add('active')
+      .toggle('active')
   },
   close() {
     // Fechar modal
@@ -13,7 +13,7 @@ const Modal = {
     document
       .querySelector('.modal-overlay')
       .classList
-      .remove('active')
+      .toggle('active')
   }
 }
 
